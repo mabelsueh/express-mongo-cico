@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Food</title>
+</head>
+<body>
+{{!-- copy form from example pls --}}
+    <form method="POST">
+        <div>
+            <label>Name</label>
+            <input type="text" name="name"/>
+        </div>
+        <div>
+            <label>Calories</label>
+            <input type="text" name="calories"/>
+        </div>
+        <div>
+            <label>Meal</label>
+            <select name="meal"/>
+                <option valie="breakfast">Breakfast</option>
+                <option valie="breakfast">Breakfast</option>
+                <option valie="breakfast">Breakfast</option>
+                <option valie="breakfast">Breakfast</option>
+            </select>
+        </div>
+        <div>
+              <label>Tags: </label>
+              <div>
+                 <input name="tags" type="checkbox" value="unhealthy"><label>Unhealthy</label>
+                 <input name="tags" type="checkbox" value="oily"><label>Oily</label>
+                 <input name="tags" type="checkbox" value="delicious"><labels>Delicious</label>
+                 <input name="tags" type="checkbox" value="vegan"><label>Vegan</label>
+                 <input name="tags" type="checkbox" value="gluten-free"><label>Gluten Free</label>
+                 <input name="tags" type="checkbox" value="impossible"><label>Impossible</label>
+              </div>
+        </div>
+
+        <input type="submit"/>
+    </form>
+</body>
+</html>
